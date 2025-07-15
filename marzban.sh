@@ -1072,7 +1072,7 @@ install_command() {
     # Function to check if a version exists in the GitHub releases
     check_version_exists() {
         local version=$1
-        repo_url="https://api.github.com/repos/Gozargah/Marzban/releases"
+        repo_url="https://api.github.com/repos/hebu001/Marzban/releases"
         if [ "$version" == "latest" ] || [ "$version" == "dev" ]; then
             return 0
         fi
